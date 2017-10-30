@@ -1,0 +1,15 @@
+{
+  "name": "serv",
+  "version": "1.0.0",
+  "dependencies":{
+   "express": "4.16.2"
+  },
+  "description": "Test serv",
+  "main": "serv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node serv.js"
+  },
+  "author": "Marom",
+  "license": "ISC"
+}
