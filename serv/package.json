@@ -1,9 +1,6 @@
 {
   "name": "serv",
   "version": "1.0.0",
-  "dependencies":{
-   "express": "4.16.2"
-  },
   "description": "Test serv",
   "main": "serv.js",
   "scripts": {
@@ -11,5 +8,9 @@
     "start": "node serv.js"
   },
   "author": "Marom",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33"
+  }
 }
