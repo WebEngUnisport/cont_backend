@@ -32,7 +32,7 @@ router.route('/messages')
 		});
 	})
 	.get(function(req, res){
-		Message.find(function(err, mesages){
+		Message.find(function(err, messages){
 			if(err){
 				res.send(err);
 			}
