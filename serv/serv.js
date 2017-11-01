@@ -15,6 +15,13 @@ var router = express.Router();
 
 var Message = require('./models/messages');
 
+
+app.all('*', function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "X-Requested-With");
+  next();
+ });
+
 router.get('/', function (req, res) {
 	res.json({message: 'Hello from the backend API'});
 });
