@@ -1,0 +1,23 @@
+{
+  "name": "unisport9",
+  "version": "1.0.0",
+  "description": "unisport9",
+  "main": "app.js",
+  "author": "webeng unisport9 team",
+  "dependencies": {
+    "hapi": "^14.2.0",
+    "hapi-cors-headers": "^1.0.3",
+    "hapi-swagger": "^6.2.2",
+    "inert": "^4.0.1",
+    "is-docker": "^1.1.0",
+    "joi": "^9.0.4",
+    "mongoose": "^4.13.7",
+    "vision": "^4.1.0"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^0.24.0"
+  }
+}

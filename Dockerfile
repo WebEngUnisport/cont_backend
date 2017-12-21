@@ -1,9 +1,9 @@
 FROM node:latest
 
-COPY ./serv ./backend
+COPY . ./backend
 
 WORKDIR /backend
 
 RUN npm install
 
-CMD node ./serv.js
+CMD node ./app.js
