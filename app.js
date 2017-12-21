@@ -16,7 +16,7 @@ require('./model/createModel');
 //---------------//
 
 const server = new Hapi.Server();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 80;
 server.connection({
     host: '0.0.0.0',
     port: PORT,
