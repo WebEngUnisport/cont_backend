@@ -1,3 +1,9 @@
 FROM node:latest
-RUN npm install pm2 -g
-RUN npm install express --save
+
+COPY . ./backend
+
+WORKDIR /backend
+
+RUN npm install
+
+CMD node ./app.js
